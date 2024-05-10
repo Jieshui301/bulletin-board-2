@@ -21,6 +21,7 @@ task({ :sample_data => :environment }) do
     user.email = "#{username}@example.com"
     user.password = "password"
     user.save
+  end
 
   5.times do
     board = Board.new
